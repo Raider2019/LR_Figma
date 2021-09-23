@@ -300,5 +300,116 @@ color: #22356F;
    color:#22356F80;
    ;
 }
+.conteinr-box-4{
+    display: flex;
+    height: 362.61px;
+    width: 1439.30px;
 
+    top: 1945.69px;
+    
+    
+    background-color: #E9B730;
+    position: absolute;
+    
+}
+.box1{
+    height: 360px;
+    width: 360px;
+  background-color:  #FFE2DE ; 
+
+}
+.line-box-1{
+    width: 255px;
+    height: 72px;
+    position: absolute;
+    left: 52.5px;
+}
+hr {
+    /* установим цвет и высоту */
+    border: 2px solid rgb(255, 255, 255);
+    border-bottom-width: 0;
+  }
+  .li-box-1{
+      width: 232px;
+      height: 54px;
+   color: white;
+   font-family: Larseiit;
+   font-size: 32px;
  
+   position: absolute;
+   top: 95px;
+   left: 78px;
+  }
+li::marker{
+    color: #E9B730;
+}
+.box2{
+    
+    height: 360px;
+    width: 360px;
+  background-color: #C4E769 ; 
+
+}       
+
+.line-box-2{
+    position: absolute;
+    width: 255px;
+    height: 72px;
+    left:412.5px;
+}
+
+.li-box-2{
+    width: 232px;
+    height: 54px;
+ color: white;
+ font-family: Larseiit;
+ font-size: 32px;
+
+ position: absolute;
+ top: 95px;
+ left: 438px;
+}
+.box3{
+    height: 360px;
+    width: 360px;
+  background-color: #62D0DF ; 
+}
+.line-box-3{
+    position: absolute;
+    width: 255px;
+    height: 72px;
+    left:772.5px;
+}
+.li-box-3{
+    width: 232px;
+    height: 54px;
+ color: white;
+ font-family: Larseiit;
+ font-size: 32px;
+
+ position: absolute;
+ top: 95px;
+ left: 798px;
+}
+.box4{
+    height: 360px;
+    width: 360px;
+  background-color: #0052C1 ; 
+}
+.line-box-4{
+    position: absolute;
+    width: 255px;
+    height: 72px;
+    left:1129.5px;
+}
+.li-box-4{
+    width: 232px;
+    height: 54px;
+ color: white;
+ font-family: Larseiit;
+ font-size: 32px;
+
+ position: absolute;
+ top: 95px;
+ left: 1155.38px;
+}
