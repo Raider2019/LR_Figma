@@ -2,6 +2,11 @@
     padding: 0px;
     margin: 0px;
 }
+body{
+    height: 5000px;
+    
+
+}
  
    .conteiner-head{
 
@@ -15,10 +20,12 @@
     }
     .center-div
     {
-       display: flex;
+        display: flex;
     
-       justify-content: center;
-   
+        justify-content: center;
+
+
+
       
     }
     .head-box1{
@@ -326,8 +333,9 @@ color: #22356F;
 }
 hr {
     /* установим цвет и высоту */
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(25, 255, 255);
     border-bottom-width: 0;
+    margin-top: 70px;
   }
   .li-box-1{
       width: 232px;
@@ -412,4 +420,27 @@ li::marker{
  position: absolute;
  top: 95px;
  left: 1155.38px;
+}
+.conteiner-box3{
+width: 1440px;
+height: 480px;
+position: absolute;
+top: 2407px;
+display: flex;
+background-color: #E9B730;
+}
+.conteiner-box3-1{
+    width: 480px;
+    height: 480px;
+    background-color: #22356F;
+}
+.conteiner-box3-2{
+    width: 480px;
+    height: 480px;
+    background-color: #0052C1;
+}
+.conteiner-box3-3{
+    width: 480px;
+    height: 480px;
+    background-image: url(../img/joanna-kosinska-340748.png)
 }
