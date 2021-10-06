@@ -48,7 +48,7 @@ body{
     background: #F9B640;
     }
     .font-buton{
-        font-family: Larserit;
+        font-family: Larsserit;
         font-size: 16px;
         line-height: 23px; 
         align-items: center;
@@ -271,7 +271,7 @@ top: 1420px;
 .aboutus{
     width: 93px;
     height: 210px;
-    font-family: Larseit;
+    font-family: Larsseit;
     font-size: 16px;
     position: absolute;
     top: 156px;
@@ -287,7 +287,7 @@ letter-spacing: 0.06em;
     position: absolute;
 left: 424px;
 top: 150px;
-font-family: Larseit;
+font-family: Larsseit;
 font-size: 24px;
 line-height: 33,75px;
 letter-spacing: 0,05em;
@@ -300,7 +300,7 @@ color: #22356F;
    position: absolute;
    top: 433px;
    left: 620px;
-   font-family: Larseit;
+   font-family: Larsseit;
    font-size: 16px;
    line-height: 18,75px;
    letter-spacing: 0,06em;
@@ -325,15 +325,15 @@ color: #22356F;
   background-color:  #FFE2DE ; 
 
 }
-.line-box-1{
+.hr-box-1{
     width: 255px;
     height: 72px;
-    position: absolute;
-    left: 52.5px;
+    margin-left: 50px;
+    
 }
 hr {
     /* установим цвет и высоту */
-    border: 2px solid rgb(25, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
     border-bottom-width: 0;
     margin-top: 70px;
   }
@@ -359,12 +359,6 @@ li::marker{
 
 }       
 
-.line-box-2{
-    position: absolute;
-    width: 255px;
-    height: 72px;
-    left:412.5px;
-}
 
 .li-box-2{
     width: 232px;
@@ -382,12 +376,7 @@ li::marker{
     width: 360px;
   background-color: #62D0DF ; 
 }
-.line-box-3{
-    position: absolute;
-    width: 255px;
-    height: 72px;
-    left:772.5px;
-}
+
 .li-box-3{
     width: 232px;
     height: 54px;
@@ -404,12 +393,7 @@ li::marker{
     width: 360px;
   background-color: #0052C1 ; 
 }
-.line-box-4{
-    position: absolute;
-    width: 255px;
-    height: 72px;
-    left:1129.5px;
-}
+
 .li-box-4{
     width: 232px;
     height: 54px;
@@ -444,3 +428,129 @@ background-color: #E9B730;
     height: 480px;
     background-image: url(../img/joanna-kosinska-340748.png)
 }
+.hr-box-2{
+    
+    width: 340px;
+    height: 96px;
+   margin-left: 70px;
+}
+.li-style-2{
+width: 157px;
+height: 72px;
+font-family: Larsseit;
+font-size: 32px;
+line-height: 34px;
+letter-spacing: 0.03em;
+color: white;
+margin-left: 104px;
+position: absolute;
+top: 95px;
+}
+.conteiner-box3-0{
+    width: 1440px;
+    height: 480px;
+    position: absolute;
+    top: 2887px;
+    display: flex;
+    background-color: #E9B730;
+    }
+    .conteiner-box3-0-1{
+        width: 480px;
+        height: 480px;
+        background-color: #62D0DF;
+    }
+    .conteiner-box3-0-2{
+        width: 480px;
+        height: 480px;
+        background-color:  #DEE1FF;
+    }
+    .conteiner-box3-0-3{
+        width: 480px;
+        height: 480px;
+        background-color:  #8F00FF;
+    }
+    .conteiner-box-text-0{
+        display: flex;
+        width: 1440px;
+        height: 240px;
+        position: absolute;
+        top: 3389px;
+background-color: white;
+    }
+    .conteiner-box-text{
+        width: 480px;
+        height: 240px;
+      background-color: white;
+    }
+    .header-text-box{
+        width: 234px;
+        height: 36px;
+        margin-left: 105px;
+        margin-top: 55px;
+        font-family: Larsseit;
+        font-size: 28px;
+        line-height: 33px;
+        letter-spacing: -0.03em;
+        color:  #22356F;
+
+
+    }
+    .text-box{
+        width: 284px;
+        height: 84px;
+        margin-left: 105px;
+        margin-top: 28px;
+        font-family: Larsseit;
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: 0.03em;
+        color: rgba(34, 53, 111, 0.5);
+    }
+    .conteiner-box-text-1{
+        display: flex;
+        width: 1440px;
+        height: 240px;
+        position: absolute;
+        top: 3629px;
+background-color: white;
+    }
+    .conteiner-cta{
+
+        width: 1440px;
+        height: 800px;
+        position: absolute;
+        top: 3909px;
+        display: flex;
+    }
+    .img-cta{
+        width: 480px;
+        height: 800px;
+        background-image: url(../img/linkedin-sales-navigator-402831.jpg);
+  
+    
+    }
+        .header-text-cta{
+            width: 217px;
+            height: 20px;
+            margin-top: 103px;
+            margin-left: 106px;
+            font-family: Larsseit;
+            font-size: 16px;
+            color: #22356F;
+        }
+        .general-text-cta{
+            position: absolute;
+            width: 676px;
+            height: 215px;
+            left: 589px;
+            top: 348px;
+            font-family: Larsseit;
+                font-size: 36px;
+            line-height: 52,72px;
+            letter-spacing: 0.01em;
+            color: #22356F;
+        }
+        .color-Thiriver{
+        color:#62D0DF;;
+        }
+ 
