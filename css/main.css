@@ -525,7 +525,7 @@ background-color: white;
     .img-cta{
         width: 480px;
         height: 800px;
-        background-image: url(../img/linkedin-sales-navigator-402831.jpg);
+        background-image: url(../img/linkedin-sales-navigator-402831.png);
   
     
     }
@@ -543,7 +543,8 @@ background-color: white;
             width: 676px;
             height: 215px;
             left: 589px;
-            top: 348px;
+            margin-top: 225px;
+
             font-family: Larsseit;
                 font-size: 36px;
             line-height: 52,72px;
