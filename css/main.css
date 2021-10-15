@@ -630,16 +630,61 @@ background-color: white;
      height: 380px;
     position: absolute;
  }
- .footer-text{
-     width: 785px;
-     height: 208px;
-     position: absolute;
-     top: 98px;
-     left: 638px;
- }
+
  .heder-footer-text{
-     width: 240px;
-     height: 48px;
+    position: absolute;
+    top: 98px  ;
+    left: 638px;
+   width: 240px;
+   height: 48px;
+   font-family: Larsseit;
+   font-size: 14px;
+   line-height: 11px;
+   letter-spacing: -0.006em;
+   
+   color: #22356F;
+   margin-left: 23px;
+}
+.heder-footer-text2{
+    position: absolute;
+    top: 98px  ;
+    left: 901px;
+   width: 240px;
+   height: 48px;
+   font-family: Larsseit;
+   font-size: 14px;
+   line-height: 11px;
+   letter-spacing: -0.006em;
+   
+   color: #22356F;
+   margin-left: 23px;
+}
+.heder-footer-text3{
+    position: absolute;
+    top: 98px  ;
+    left: 1163px;
+   width: 240px;
+   height: 48px;
+   font-family: Larsseit;
+   font-size: 14px;
+   line-height: 11px;
+   letter-spacing: -0.006em;
+   
+   color: #22356F;
+  
+}
+ 
+ .text-footer{
+     width: 207;
+     height: 115px;
+     font-family: Larsseit;
+     font-size: 14px;
+     line-height: 23px;
+     letter-spacing: -0.006em;
+
+color: #22356F80;
+position: absolute;
+top: 36px;
 
 
  }
