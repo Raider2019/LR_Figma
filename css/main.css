@@ -1,31 +1,30 @@
 *{
     padding: 0px;
     margin: 0px;
-}
-body{
-    height: 5000px;
-    
-
-}
  
+}
+
    .conteiner-head{
 
         position: relative;
     width:  1440px;
         height: 840px ;
     background-color: white; 
+    overflow: hidden;
 
 
 
     }
     .center-div
     {
+        width: 100%;
+        height: 100%;
         display: flex;
     
         justify-content: center;
 
 
-
+        overflow: visible;
       
     }
     .head-box1{
@@ -251,7 +250,7 @@ line-height: 35px;
 }
 
 .backgraund-content{
-background-color: brown;
+background-color: white;
     width: 525px;
     height: 604px;
   position: absolute;
@@ -278,7 +277,7 @@ top: 1420px;
     left: 106px;
     color:#22356F;
     line-height: 23px;
-letter-spacing: 0.06em;
+letter-spacing: 0.006em;
     
 }
 .wewant{
@@ -290,7 +289,7 @@ top: 150px;
 font-family: Larsseit;
 font-size: 24px;
 line-height: 33,75px;
-letter-spacing: 0,05em;
+letter-spacing: 0,005em;
 color: #22356F;
 ;
 }
@@ -303,7 +302,7 @@ color: #22356F;
    font-family: Larsseit;
    font-size: 16px;
    line-height: 18,75px;
-   letter-spacing: 0,06em;
+   letter-spacing: 0,006em;
    color:#22356F80;
    ;
 }
@@ -440,7 +439,7 @@ height: 72px;
 font-family: Larsseit;
 font-size: 32px;
 line-height: 34px;
-letter-spacing: 0.03em;
+letter-spacing: 0.003em;
 color: white;
 margin-left: 104px;
 position: absolute;
@@ -490,7 +489,7 @@ background-color: white;
         font-family: Larsseit;
         font-size: 28px;
         line-height: 33px;
-        letter-spacing: -0.03em;
+        letter-spacing: -0.003em;
         color:  #22356F;
 
 
@@ -503,7 +502,7 @@ background-color: white;
         font-family: Larsseit;
         font-size: 16px;
         line-height: 25px;
-        letter-spacing: 0.03em;
+        letter-spacing: 0.003em;
         color: rgba(34, 53, 111, 0.5);
     }
     .conteiner-box-text-1{
@@ -548,10 +547,99 @@ background-color: white;
             font-family: Larsseit;
                 font-size: 36px;
             line-height: 52,72px;
-            letter-spacing: 0.01em;
+            letter-spacing: 0.001em;
             color: #22356F;
         }
         .color-Thiriver{
         color:#62D0DF;;
         }
- 
+
+
+ .conteiner-CTA{
+     width: 1440px;
+     height: 800px ;
+     
+     background-color: #22356F;
+     position: absolute;
+     top: 4709px;
+ }
+ .header-CTA{
+    position: absolute;
+    top: 103px;
+    left: 180px;
+    width: 108px;
+    height: 14px;
+    font-family: Larsseit;
+    font-size: 16px;
+    color: white;
+
+}
+.header-CTA-text{
+    width: 704px;
+    height:66px;
+    position: absolute;
+    top:230px;
+    font-family: Larsseit;
+    font-size: 64px;
+    line-height: 93,75px;
+    letter-spacing: -0.001em;
+    color: white;
+}
+.text-CTA{
+    width: 579px;
+    height: 253px;
+    position: absolute;
+    top:371px;   
+    font-family: Larsseit;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.005em;
+}
+ .img-CTA{  
+     height: 800px;
+     width: 480px;
+    position: absolute;
+    left: 960px;
+ }
+ .footer-CTA{
+     color: #62D0DF;
+     width: 516px;
+     height: 43px;
+     position: absolute;
+     top: 715px;
+     left: 180px;
+     font-family: Larsseit;
+     font-size: 16px;
+     line-height: 23,44px;
+     letter-spacing: 0.1em;
+ }
+ .footer-conteiner{
+     width: 1443px;
+     height: 480px;
+        background-color: white;
+        position: absolute;
+        top:5509px;
+ }
+ .footer-info{
+     width: 1443px;
+     height: 380px;
+     
+ }
+ .img-footer{
+     width: 570px;
+     height: 380px;
+    position: absolute;
+ }
+ .footer-text{
+     width: 785px;
+     height: 208px;
+     position: absolute;
+     top: 98px;
+     left: 638px;
+ }
+ .heder-footer-text{
+     width: 240px;
+     height: 48px;
+
+
+ }
